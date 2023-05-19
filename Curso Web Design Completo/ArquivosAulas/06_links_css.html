@@ -1,0 +1,63 @@
+<!doctype html>
+    <!-- informa que vai usar html-->
+<html lang="pt-br">
+    <!-- informa a língua que vai usar na página-->
+<head>
+    <title> Página de estrutura basica </title>
+    <meta charset="utf-8">
+        <!--SEO-->
+    <meta name="author" content="Daniel">
+    <meta name="description" content="descrição bacanuda">
+    <meta name="keywords" content="html5, tecnologia">
+        <!--</>SEO-->
+        <style>
+            body{
+                /*Ao passar estilos, tem que se respeitar as hierarquias, portanto algumas  estilizações serão feitas se e somente se
+                forem colocadas para serem estilizadas suas próprias tags, como exemplo o texto exibido no <a>*/
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color:blueviolet ;
+                background-color: #121212;
+            }
+            a{
+                color: aliceblue;
+            }
+            a:hover{
+                color: goldenrod;
+            }
+            /*a:link{
+                background-color: black;
+            }
+            */
+            a:visited{
+                border: solid 10px white ;
+            }
+            ul li{
+                color: aquamarine;
+                list-style-type:square;
+            }
+            ol li{
+                color: #444444;
+                list-style:decimal;
+            }
+        </style>
+</head>
+<body>
+    <h1>aaaaaa</h1>
+    <nav>
+        <a href="01_teste.html">TESTE</a>
+        <a href="02_tags.html">TAGS</a>
+        <a href="03_Ex_curriculo.html">CURRICULUM</a>
+        <a href="06_links_css.html">LINKS</a>
+    </nav>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <ol>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ol>
+</body>
+</html>
